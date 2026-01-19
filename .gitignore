@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+
+# Generated / processed data
+Processed_UE_Datasets/
+sequences_mc_train_test/
+
+# ML artifacts
+*.joblib
+*.pkl
+
+# Python cache
+__pycache__/
