@@ -1,0 +1,109 @@
+{
+  "status": "computed",
+  "computed_at_unix": 1769533609,
+  "method": "TreeExplainer",
+  "feature_columns": [
+    "epre",
+    "pusch_snr",
+    "p_ue",
+    "ul_mcs",
+    "cqi",
+    "ul_bitrate",
+    "dl_mcs",
+    "dl_retx",
+    "ul_tx",
+    "dl_tx",
+    "ul_retx",
+    "dl_bitrate",
+    "dl_err",
+    "ul_err"
+  ],
+  "background_rows": 1000,
+  "model_output": "threat_score",
+  "global_feature_effects": [
+    {
+      "feature": "dl_bitrate",
+      "mean_shap": -0.019671798726887818,
+      "mean_abs_shap": 0.45908822878695854,
+      "direction": "toward_normal"
+    },
+    {
+      "feature": "dl_tx",
+      "mean_shap": -0.15871875144176323,
+      "mean_abs_shap": 0.40857238247998084,
+      "direction": "toward_normal"
+    },
+    {
+      "feature": "ul_tx",
+      "mean_shap": 0.05485611040601728,
+      "mean_abs_shap": 0.33530370577609825,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "ul_bitrate",
+      "mean_shap": 0.020132098317695746,
+      "mean_abs_shap": 0.2411959268767112,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "epre",
+      "mean_shap": 0.03331233970069976,
+      "mean_abs_shap": 0.23244792080383686,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "ul_retx",
+      "mean_shap": 0.060159458703493554,
+      "mean_abs_shap": 0.1959751644950339,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "ul_mcs",
+      "mean_shap": -0.04865650299770277,
+      "mean_abs_shap": 0.1425487407426247,
+      "direction": "toward_normal"
+    },
+    {
+      "feature": "p_ue",
+      "mean_shap": 0.035114317610317906,
+      "mean_abs_shap": 0.11344850972288803,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "dl_retx",
+      "mean_shap": 0.05229597233302203,
+      "mean_abs_shap": 0.08697799650526859,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "dl_mcs",
+      "mean_shap": -0.0292800454203527,
+      "mean_abs_shap": 0.05609258620488467,
+      "direction": "toward_normal"
+    },
+    {
+      "feature": "cqi",
+      "mean_shap": 0.010314894565699333,
+      "mean_abs_shap": 0.016518857434124287,
+      "direction": "toward_attack"
+    },
+    {
+      "feature": "pusch_snr",
+      "mean_shap": -0.0005377636186857173,
+      "mean_abs_shap": 0.010214225169515983,
+      "direction": "toward_normal"
+    },
+    {
+      "feature": "ul_err",
+      "mean_shap": -0.002357378310800607,
+      "mean_abs_shap": 0.004846864819743185,
+      "direction": "toward_normal"
+    },
+    {
+      "feature": "dl_err",
+      "mean_shap": -0.0019374897495490412,
+      "mean_abs_shap": 0.0028610629689129236,
+      "direction": "toward_normal"
+    }
+  ]
+}
