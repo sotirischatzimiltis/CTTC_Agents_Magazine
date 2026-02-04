@@ -1,0 +1,125 @@
+{
+  "status": "computed",
+  "computed_at_unix": 1770201628,
+  "method": "statistical_summary",
+  "label_definition": {
+    "0": "normal",
+    "1": "attack"
+  },
+  "feature_columns": [
+    "cqi",
+    "dl_bitrate",
+    "dl_err",
+    "dl_mcs",
+    "dl_retx",
+    "dl_tx",
+    "epre",
+    "p_ue",
+    "pusch_snr",
+    "ul_bitrate",
+    "ul_err",
+    "ul_mcs",
+    "ul_retx",
+    "ul_tx"
+  ],
+  "global_feature_statistics": [
+    {
+      "feature": "cqi",
+      "normal_mean": 12.2924,
+      "normal_std": 3.0911,
+      "attack_mean": 12.2349,
+      "attack_std": 3.6868
+    },
+    {
+      "feature": "dl_bitrate",
+      "normal_mean": 1116129.859,
+      "normal_std": 1570154.5469,
+      "attack_mean": 57793.5797,
+      "attack_std": 40502.3499
+    },
+    {
+      "feature": "dl_err",
+      "normal_mean": 0.0245,
+      "normal_std": 0.2372,
+      "attack_mean": 0.0746,
+      "attack_std": 0.3912
+    },
+    {
+      "feature": "dl_mcs",
+      "normal_mean": 19.6121,
+      "normal_std": 7.1902,
+      "attack_mean": 21.1074,
+      "attack_std": 8.7999
+    },
+    {
+      "feature": "dl_retx",
+      "normal_mean": 36.16,
+      "normal_std": 59.7404,
+      "attack_mean": 8.8896,
+      "attack_std": 12.3183
+    },
+    {
+      "feature": "dl_tx",
+      "normal_mean": 594.5355,
+      "normal_std": 828.2705,
+      "attack_mean": 292.233,
+      "attack_std": 180.1266
+    },
+    {
+      "feature": "epre",
+      "normal_mean": -100.0154,
+      "normal_std": 13.8833,
+      "attack_mean": -109.3514,
+      "attack_std": 14.8708
+    },
+    {
+      "feature": "p_ue",
+      "normal_mean": -6.7007,
+      "normal_std": 12.6363,
+      "attack_mean": -7.8618,
+      "attack_std": 9.1074
+    },
+    {
+      "feature": "pusch_snr",
+      "normal_mean": 27.0695,
+      "normal_std": 8.5617,
+      "attack_mean": 24.6243,
+      "attack_std": 5.6399
+    },
+    {
+      "feature": "ul_bitrate",
+      "normal_mean": 5558019.3725,
+      "normal_std": 9065503.1994,
+      "attack_mean": 8460139.5258,
+      "attack_std": 8050658.2443
+    },
+    {
+      "feature": "ul_err",
+      "normal_mean": 0.0301,
+      "normal_std": 0.4173,
+      "attack_mean": 0.2347,
+      "attack_std": 1.1533
+    },
+    {
+      "feature": "ul_mcs",
+      "normal_mean": 20.3512,
+      "normal_std": 6.7217,
+      "attack_mean": 19.9726,
+      "attack_std": 5.7588
+    },
+    {
+      "feature": "ul_retx",
+      "normal_mean": 53.5165,
+      "normal_std": 74.0831,
+      "attack_mean": 63.0164,
+      "attack_std": 31.417
+    },
+    {
+      "feature": "ul_tx",
+      "normal_mean": 616.8267,
+      "normal_std": 702.8911,
+      "attack_mean": 678.936,
+      "attack_std": 352.3178
+    }
+  ]
+}
