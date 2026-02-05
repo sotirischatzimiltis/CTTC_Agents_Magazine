@@ -11,3 +11,6 @@ sequences_mc_train_test/
 
 # Python cache
 __pycache__/
+
+# csv files
+eval_dataset_windows_summary.csv
